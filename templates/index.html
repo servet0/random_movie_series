@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="stil.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+    <title>Movie</title>
+</head>
+<body>
+    <div id="button-container1">
+        <a href="{% url 'index' %}">
+            <button class="button1">
+                <span>Movie</span>
+            </button>
+        </a>
+    
+        <a href="{% url 'index2' %}">
+            <button class="button1">
+                <span>Serie</span>
+            </button>
+        </a>
+    </div>
+    
+    
+    <div id="button-container">
+        <a href="{% url 'random_movie' %}" target="_blank">
+            <button>
+                <div class="shadow"></div>
+                <div class="edge"></div>
+                <span class="front">Suggest a MOVİE</span>
+            </button>
+        </a>
+    </div>    
+</body>
+</html>
