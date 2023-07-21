@@ -12,5 +12,3 @@ Bu proje, Django web çatısı kullanılarak geliştirilmiş bir film dizi öner
 - Rastgele dizi önerme: Kullanıcılar, dizi seçeneğini seçerek öneri butonuna tıklayarak rastgele bir dizi önerisi alabilirler.
 - IMDb yönlendirmesi: Öneri yapıldığında, kullanıcılar IMDb üzerinde ilgili film-dizi sayfasına yönlendirilirler.
 
-[video.zip](https://github.com/servet0/random_movie_series/files/12130597/video.zip)
-
