@@ -13,3 +13,29 @@ Bu proje, Django web çatısı kullanılarak geliştirilmiş bir film dizi öner
 - IMDb yönlendirmesi: Öneri yapıldığında, kullanıcılar IMDb üzerinde ilgili film-dizi sayfasına yönlendirilirler.
 
 https://github.com/servet0/random_movie_series/assets/123745302/f37cec6f-4f90-403c-b642-47668bb46a3c
+
+## Kurulum
+
+Projeyi çalıştırmak için aşağıdaki adımları takip edin:
+
+1. **Gereksinimleri İndirin:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. **Veritabanını Migrate Edin:**
+    ```bash
+    python manage.py migrate
+    ```
+
+3. **Yönetici Hesabı Oluşturun:**
+    ```bash
+    python manage.py createsuperuser
+    ```
+
+4. **Sunucuyu Başlatın:**
+    ```bash
+    python manage.py runserver
+    ```
+
+Proje artık `http://localhost:8000` adresinde çalışır durumda olmalıdır. Yönetici paneline `http://localhost:8000/admin` adresinden erişebilirsiniz.
